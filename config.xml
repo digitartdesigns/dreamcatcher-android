@@ -11,13 +11,12 @@
         Digit Art Designs Ltd. Team
     </author>
     <feature name="http://api.phonegap.com/1.0/device" />
-	<plugin name="cordova-plugin-inappbrowser" src="npm" />
-	<preference name="phonegap-version" value="cli-6.1.0" />
+	<preference name="phonegap-version" value="cli-6.3.0" />
 	<preference name="splash-screen-duration" value="6000" />
     <preference name="orientation" value="default" />
     <preference name="fullscreen" value="false" />
 	<gap:plugin name="org.apache.cordova.device" />
-	<gap:plugin name="org.apache.cordova.inappbrowser" version="0.5.2" />
+	<gap:plugin name="org.apache.cordova.inappbrowser" />
 	<icon src="icon.png" gap:platform="android" gap:density="hdpi" gap:role="default" />
 	<gap:splash src="images/screen-portrait-md.png" gap:platform="android" gap:density="mdpi" />
 	<gap:splash src="images/screen-portrait-lg.png" gap:platform="android" gap:density="ldpi" />
