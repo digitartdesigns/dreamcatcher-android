@@ -2,7 +2,7 @@
 <widget xmlns = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         id = "com.dreamcatcherfinancing.dreamcatcherfinancing"
-        version = "21">
+        version = "31">
     <name>Dream Catcher Auto Financing</name>
     <description>
         Web App by Digit Art Designs Ltd.
@@ -11,7 +11,8 @@
         Digit Art Designs Ltd. Team
     </author>
     <feature name="http://api.phonegap.com/1.0/device" />
-	<preference name="phonegap-version" value="3.5.0" />
+	<plugin name="cordova-plugin-inappbrowser" spec="1.5.0" />
+	<preference name="phonegap-version" value="cli-6.3.0" />
 	<preference name="splash-screen-duration" value="6000" />
     <preference name="orientation" value="default" />
     <preference name="fullscreen" value="false" />
