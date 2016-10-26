@@ -13,16 +13,8 @@
       function onDeviceReady() {
            //navigator.app.loadUrl('http://www.google.com/');
            alert('inside ya');
-
-           //console.log(navigator.app);
-           //window.location = encodeURI('http://www.example.com');
-           //window.location.href = 'http://www.example.com/';
-		   navigator.app.loadUrl('http://dreamcatcherfinancing.com/?app');
-           //window.location = encodeURI('http://dreamcatcherfinancing.com/?app');
-          // window.location = 'http://dreamcatcherfinancing.com/?app';
-
-           //window.location = 'local_page.html';  <--- this works perfect
-           //window.open('http://www.google.com', '_self');
+		   var targetURL = encodeURI("http://dreamcatcherfinancing.com/?app");
+           window.open(targetURL, "_self");
 
 }
     </script>
