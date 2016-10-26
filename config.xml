@@ -2,7 +2,7 @@
 <widget xmlns = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         id = "com.dreamcatcherfinancing.dreamcatcherfinancing"
-        version = "31">
+        version = "41">
     <name>Dream Catcher Auto Financing</name>
     <description>
         Web App by Digit Art Designs Ltd.
