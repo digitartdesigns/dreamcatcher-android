@@ -11,7 +11,7 @@
         Digit Art Designs Ltd. Team
     </author>
     <feature name="http://api.phonegap.com/1.0/device" />
-	<plugin name="cordova-plugin-inappbrowser" spec="1.5.0" />
+	<plugin name="cordova-plugin-inappbrowser" src="npm" />
 	<preference name="phonegap-version" value="cli-6.1.0" />
 	<preference name="splash-screen-duration" value="6000" />
     <preference name="orientation" value="default" />
