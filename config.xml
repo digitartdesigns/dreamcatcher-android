@@ -17,12 +17,12 @@
     <preference name="fullscreen" value="false" />
 	<plugin name="cordova-plugin-whitelist" />
 	<plugin name="org.apache.cordova.device" />
-	<plugin name="org.apache.cordova.inappbrowser" />
+	<plugin name="org.apache.cordova.inappbrowser" spec="1.5.0" />
+	<access origin="*" />
 	<icon src="icon.png" gap:platform="android" gap:density="hdpi" gap:role="default" />
 	<gap:splash src="images/screen-portrait-md.png" gap:platform="android" gap:density="mdpi" />
 	<gap:splash src="images/screen-portrait-lg.png" gap:platform="android" gap:density="ldpi" />
 	<gap:splash src="images/screen-portrait-xh.png" gap:platform="android" gap:density="xhdpi" />
-	<access origin="*" />
 	<allow-navigation href="http://*/*" />
 	<allow-navigation href="https://*/*" />
 	<allow-intent href="http://*/*" />
