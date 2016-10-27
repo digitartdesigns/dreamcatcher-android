@@ -17,7 +17,7 @@
     <preference name="fullscreen" value="false" />
 	<plugin name="cordova-plugin-whitelist" />
 	<plugin name="org.apache.cordova.device" />
-	<plugin name="org.apache.cordova.inappbrowser" spec="1.5.0" />
+	<plugin name="org.apache.cordova.inappbrowser" />
 	<icon src="icon.png" gap:platform="android" gap:density="hdpi" gap:role="default" />
 	<gap:splash src="images/screen-portrait-md.png" gap:platform="android" gap:density="mdpi" />
 	<gap:splash src="images/screen-portrait-lg.png" gap:platform="android" gap:density="ldpi" />
