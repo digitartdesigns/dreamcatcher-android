@@ -22,11 +22,9 @@
 	<gap:splash src="images/screen-portrait-md.png" gap:platform="android" gap:density="mdpi" />
 	<gap:splash src="images/screen-portrait-lg.png" gap:platform="android" gap:density="ldpi" />
 	<gap:splash src="images/screen-portrait-xh.png" gap:platform="android" gap:density="xhdpi" />
-	<!--<allow-navigation href="http://*/*" />
+	<access origin="*" />
+	<allow-navigation href="http://*/*" />
 	<allow-navigation href="https://*/*" />
 	<allow-intent href="http://*/*" />
-	<allow-intent href="https://*/*" />-->
-	<access origin="*" />
-	<!--<allow-intent href="http://*/*" />
-    <allow-navigation href="*" />-->
+	<allow-intent href="https://*/*" />
 </widget>
